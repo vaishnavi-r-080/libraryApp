@@ -4,6 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Library library = new Library();
         User user1 = new User("1", "Paras");
+        System.out.println("UserId: "+ user1.getUserId() + " UserName: "+ user1.getUserName() + " created successfully");
+        User user2 = new User("2", "Sonu");
+        System.out.println("UserId: "+ user2.getUserId() + " UserName: "+ user2.getUserName() + " created successfully");
 
         Book book1 = new Book("B001", "Full Stack Java");
         CD cd1 = new CD("C001", "Death Note");
