@@ -1,6 +1,6 @@
 package libraryManagement;
 
-public class Book extends libraryItem{
+public class Book extends LibraryItem{
 
     public Book(String id, String name) {
         this.item_id = id;

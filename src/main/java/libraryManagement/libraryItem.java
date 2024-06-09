@@ -1,10 +1,9 @@
 package libraryManagement;
 
-public abstract class libraryItem {
-
-   protected String item_id;
-   protected String item_name;
-   protected boolean availability;
+public abstract class LibraryItem {
+    protected String item_id;
+    protected String item_name;
+    protected boolean availability;
 
     public String getItem_id() {
         return item_id;
